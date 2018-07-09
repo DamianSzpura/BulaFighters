@@ -32,6 +32,7 @@ public class Main extends Application {
 
         Parent root = FXMLLoader.load(getClass().getResource("Fxml/MainMenu.fxml"));
 
+        stage.setTitle("Buła fighters");
         stage.initStyle(StageStyle.TRANSPARENT);
         stage.initStyle(StageStyle.UNDECORATED);
         stage.setScene(new Scene(root, 1000, 800));
