@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainPackage.CreateTeamController">
+    <children>
+        <VBox alignment="CENTER" layoutX="532.0" layoutY="50.0" prefHeight="700.0" prefWidth="422.0" spacing="20.0">
+            <children>
+            <Button mnemonicParsing="false" onAction="#ExitTeamButtonAction" text="Back" textAlignment="CENTER" />
+                <Button mnemonicParsing="false" onAction="#nextHead" onMouseMoved="#nextHeadMove" onMouseExited="#MoveEnd" prefHeight="25.0" prefWidth="476.0" text="Head" />
+            <VBox prefHeight="50.0" prefWidth="100.0" spacing="10.0">
+               <children>
+                  <HBox alignment="CENTER" prefHeight="20.0" prefWidth="200.0" spacing="150.0">
+                     <children>
+                        <Label fx:id="HeadHealth" text="Label" />
+                        <Label fx:id="HeadSpeed" text="Label" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="TOP_CENTER" prefHeight="20.0" prefWidth="200.0" spacing="150.0">
+                     <children>
+                        <Label fx:id="HeadAttack" text="Label" />
+                        <Label fx:id="HeadDefence" prefHeight="20.0" text="Label" />
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+                <Button mnemonicParsing="false" onAction="#nextTorso" onMouseMoved="#nextTorsoMove" onMouseExited="#MoveEnd" prefHeight="25.0" prefWidth="522.0" text="Torso" />
+            <VBox prefHeight="50.0" prefWidth="100.0" spacing="10.0">
+               <children>
+                  <HBox alignment="CENTER" prefHeight="20.0" prefWidth="200.0" spacing="150.0">
+                     <children>
+                        <Label fx:id="TorsoHealth" text="Label" />
+                        <Label fx:id="TorsoSpeed" text="Label" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="TOP_CENTER" prefHeight="20.0" prefWidth="200.0" spacing="150.0">
+                     <children>
+                        <Label fx:id="TorsoAttack" text="Label" />
+                        <Label fx:id="TorsoDefence" prefHeight="20.0" text="Label" />
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+                <Button mnemonicParsing="false" onAction="#nextArms" onMouseMoved="#nextArmsMove" onMouseExited="#MoveEnd" prefHeight="25.0" prefWidth="472.0" text="Arms" />
+            <VBox prefHeight="50.0" prefWidth="100.0" spacing="10.0">
+               <children>
+                  <HBox alignment="CENTER" prefHeight="20.0" prefWidth="200.0" spacing="150.0">
+                     <children>
+                        <Label fx:id="ArmsHealth" text="Label" />
+                        <Label fx:id="ArmsSpeed" text="Label" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="TOP_CENTER" prefHeight="20.0" prefWidth="200.0" spacing="150.0">
+                     <children>
+                        <Label fx:id="ArmsAttack" text="Label" />
+                        <Label fx:id="ArmsDefence" prefHeight="20.0" text="Label" />
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+                <Button mnemonicParsing="false" onAction="#nextLegs" onMouseMoved="#nextLegsMove" onMouseExited="#MoveEnd" prefHeight="25.0" prefWidth="520.0" text="Legs" />
+            <VBox prefHeight="50.0" prefWidth="100.0" spacing="10.0">
+               <children>
+                  <HBox alignment="CENTER" prefHeight="20.0" prefWidth="200.0" spacing="150.0">
+                     <children>
+                        <Label fx:id="LegsHealth" text="Label" />
+                        <Label fx:id="LegsSpeed" text="Label" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="TOP_CENTER" prefHeight="20.0" prefWidth="200.0" spacing="150.0">
+                     <children>
+                        <Label fx:id="LegsAttack" text="Label" />
+                        <Label fx:id="LegsDefence" prefHeight="20.0" text="Label" />
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <HBox alignment="CENTER">
+               <children>
+                  <TextField id="name" fx:id="fightername" prefHeight="25.0" prefWidth="371.0" />
+                  <Button mnemonicParsing="false" onAction="#setName" prefHeight="25.0" prefWidth="103.0" text="Confirm" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="17.0" prefWidth="422.0" spacing="50.0">
+               <children>
+                  <Button fx:id="saveone" mnemonicParsing="false" onAction="#savePlayerOne" prefHeight="25.0" prefWidth="114.0" text="Save for Player 1" />
+                  <Button fx:id="savetwo" mnemonicParsing="false" onAction="#savePlayerTwo" prefHeight="25.0" prefWidth="114.0" text="Save for Player 2" />
+               </children>
+            </HBox>
+            <Label fx:id="ComLabel" text="Label" visible="false" />
+            <Button fx:id="fightBeginButton" mnemonicParsing="false" onAction="#fightBegin" prefHeight="40.0" prefWidth="140.0" text="BEGIN" />
+            </children>
+        </VBox>
+        <AnchorPane layoutX="106.0" layoutY="87.0" prefHeight="609.0" prefWidth="334.0">
+            <children>
+                <ImageView id="image_arm_b" fx:id="arm_b" layoutX="84.0" layoutY="189.0" pickOnBounds="true" preserveRatio="true" scaleX="2.0" scaleY="2.0" />
+                <ImageView id="image_leg_b" fx:id="leg_b" layoutX="84.0" layoutY="189.0" pickOnBounds="true" preserveRatio="true" scaleX="2.0" scaleY="2.0" />
+                <ImageView id="image_torso" fx:id="torso" layoutX="84.0" layoutY="189.0" pickOnBounds="true" preserveRatio="true" scaleX="2.0" scaleY="2.0" />
+                <ImageView id="image_leg_f" fx:id="leg_f" layoutX="84.0" layoutY="189.0" pickOnBounds="true" preserveRatio="true" scaleX="2.0" scaleY="2.0" />
+                <ImageView id="image_head" fx:id="head" layoutX="84.0" layoutY="189.0" pickOnBounds="true" preserveRatio="true" scaleX="2.0" scaleY="2.0" />
+                <ImageView id="image_arm_f" fx:id="arm_f" layoutX="84.0" layoutY="189.0" pickOnBounds="true" preserveRatio="true" scaleX="2.0" scaleY="2.0" />
+            </children>
+        </AnchorPane>
+      <AnchorPane fx:id="PaneMoveShow" layoutX="10.0" layoutY="10.0" prefHeight="160.0" prefWidth="196.0" visible="false">
+         <children>
+            <Pane prefHeight="160.0" prefWidth="200.0" style="-fx-background-color: White; -fx-border-color: black;">
+               <children>
+                  <Label layoutX="14.0" layoutY="20.0" prefHeight="40.0" prefWidth="120.0" text="Name:" />
+                  <Label fx:id="MoveNamePane" layoutX="74.0" layoutY="20.0" prefHeight="40.0" prefWidth="120.0" text="Label" />
+                  <Label layoutX="14.0" layoutY="60.0" prefHeight="40.0" prefWidth="120.0" text="Damage:" />
+                  <Label fx:id="MoveDamagePane" layoutX="74.0" layoutY="60.0" prefHeight="40.0" prefWidth="120.0" text="Label" />
+                  <Label layoutX="14.0" layoutY="100.0" prefHeight="40.0" prefWidth="120.0" text="Hit:" />
+                  <Label fx:id="MoveHitChancePane" layoutX="74.0" layoutY="100.0" prefHeight="40.0" prefWidth="120.0" text="Label" />
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+    </children>
+</AnchorPane>
