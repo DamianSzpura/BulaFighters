@@ -1,5 +1,5 @@
 
-package Teams;
+package teams;
 
 import javafx.scene.image.Image;
 
@@ -11,10 +11,6 @@ import java.io.Serializable;
  */
 
 public class BodyPart implements Serializable {
-    /**
-     * Pole nazwy bodypart.
-     */
-    private String name;
     /**
      * Liczba zdrowia dla danego bodypart.
      */
@@ -43,7 +39,6 @@ public class BodyPart implements Serializable {
     /**
      * Konstruktor do tworzenia bodypart bez wybranego move.
      * Wykorzystywany tylko przy leg back i arm back.
-     * @param name nazwa bodypart
      * @param health zdrowie dla bodypart
      * @param attack atak dla bodypart
      * @param def defensywa dla bodypart
@@ -51,14 +46,12 @@ public class BodyPart implements Serializable {
      * @param look sciezka do obrazu dla bodypart
      */
 
-    public BodyPart(String name,
-                    int health,
+    public BodyPart(int health,
                     int attack,
                     int def,
                     int speed,
                     String look)
     {
-        this.name = name;
         this.health =  health;
         this.attack = attack;
         this.def = def;
@@ -69,7 +62,6 @@ public class BodyPart implements Serializable {
     /**
      * Konstruktor do tworzenia bodypart z wybranym move.
      * Jest to standardowy konstruktor.
-     * @param name nazwa bodypart
      * @param health zdrowie dla bodypart
      * @param attack atak dla bodypart
      * @param def defensywa dla bodypart
@@ -78,15 +70,13 @@ public class BodyPart implements Serializable {
      * @param look sciezka do obrazu dla bodypart
      */
 
-    public BodyPart(String name,
-                    int health,
+    public BodyPart(int health,
                     int attack,
                     int def,
                     int speed,
                     String look,
                     Move move)
     {
-        this.name = name;
         this.health =  health;
         this.attack = attack;
         this.def = def;

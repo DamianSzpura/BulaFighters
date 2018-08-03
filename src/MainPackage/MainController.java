@@ -1,7 +1,7 @@
 package MainPackage;
 
-import Teams.BodyPart;
-import Teams.Move;
+import teams.BodyPart;
+import teams.Move;
 import javafx.application.Platform;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -10,6 +10,8 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
+
+import static MainPackage.Main.*;
 
 /**
  * Kontroler wykorzystany do operacji na menu glownym. Dodatkowo tez tworzy elementy niezbedne do dzialania gry.
@@ -20,7 +22,7 @@ public class MainController {
     /**
      *  Tworzenie generatora losowych wartosci.
      */
-    public Random rand = new Random();
+    private Random rand = new Random();
 
     /**
      *  Zapis wszystkich Head w postaci listy.
@@ -50,15 +52,15 @@ public class MainController {
     /**
      *  Zapis wszystkich move w postaci listy, wykorzystywane przy tworzeniu bodypart.
      */
-    static List<Move> moves = new ArrayList<>();
+    private static List<Move> moves = new ArrayList<>();
 
     /**
      * Losuje wartosci od 0 do 8 do generowania losowych move dla poszczegolnych bodypart.
      * @return losowa wartosc od 0 do 8.
      */
-    public int Random()
+    private int random()
     {
-        return rand.nextInt(8);
+        return rand.nextInt(moves.size());
     }
 
     /**
@@ -69,48 +71,49 @@ public class MainController {
      */
     public void initialize(){
 
+        moves.add(new Move( "Blaze Kick", 140, 90, 0,0, " ", 2,0, false));
+        moves.add(new Move( "Shadow punch", 120, 95, 0, 0, " ", 2, 0,false));
+        moves.add(new Move( "Sunsteel Strike", 200, 70, 0, 0, " ",2,0,false));
+        moves.add(new Move( "High Horsepower", 180, 85, 0, 0, " ", 2,0,false));
+        moves.add(new Move( "Hydro Vortex", 160,80, 0, 0, " ", 2,0,false));
+        moves.add(new Move( "Draining Kiss", 100, 100, 0, 0, " ", 2,0,false));
+        moves.add(new Move( "Fusion Bolt", 200, 95, 0, 0, " ", 2,0,false));
+        moves.add(new Move( "Drill Run", 130, 90, 0, 0, " ", 2,0,false));
+        moves.add(new Move( "Brick Break", 150, 70, 0, 0, " ", 2,0,false));
+        moves.add(new Move( "Bulk up", 0, 100, 0, 2, "attack up", 3,2,true));
+        moves.add(new Move( "Eat buła", 100, 100, 0, 2, "all stats up", 6,30,true));
 
-        moves.add(new Move( "Blaze Kick", 140, 90));
-        moves.add(new Move( "Shadow punch", 120, 95));
-        moves.add(new Move( "Sunsteel Strike", 200, 70));
-        moves.add(new Move( "High Horsepower", 180, 85));
-        moves.add(new Move( "Hydro Vortex", 160,80));
-        moves.add(new Move( "Draining Kiss", 100, 100));
-        moves.add(new Move( "Fusion Bolt", 200, 95));
-        moves.add(new Move( "Drill Run", 130, 90));
-        moves.add(new Move( "Brick Break", 150, 70));
 
+        heads.add(new BodyPart( 200, 30, 30, 30, "/MainPackage/character/Yellow/head.png", moves.get(random())));
+        heads.add(new BodyPart( 150, 10, 10, 70, "/MainPackage/character/Gray/head.png", moves.get(random())));
+        heads.add(new BodyPart( 300, 30, 50, 10, "/MainPackage/character/Pink/head.png", moves.get(random())));
 
-        heads.add(new BodyPart("Yhead", 200, 30, 30, 30, "/MainPackage/Character/Yellow/head.png", moves.get(Random())));
-        heads.add(new BodyPart("Ghead", 150, 10, 10, 70, "/MainPackage/Character/Gray/head.png", moves.get(Random())));
-        heads.add(new BodyPart("Phead", 300, 30, 50, 10, "/MainPackage/Character/Pink/head.png", moves.get(Random())));
+        torsos.add(new BodyPart( 300, 25, 25, 40, "/MainPackage/character/Yellow/torso.png", moves.get(random())));
+        torsos.add(new BodyPart( 150, 10, 20, 70, "/MainPackage/character/Gray/torso.png", moves.get(random())));
+        torsos.add(new BodyPart( 500, 30, 1, 10, "/MainPackage/character/Pink/torso.png", moves.get(random())));
 
-        torsos.add(new BodyPart("Ytorso", 300, 25, 25, 40, "/MainPackage/Character/Yellow/torso.png", moves.get(Random())));
-        torsos.add(new BodyPart("Gtorso", 150, 10, 20, 70, "/MainPackage/Character/Gray/torso.png", moves.get(Random())));
-        torsos.add(new BodyPart("Ptorso", 500, 30, 1, 10, "/MainPackage/Character/Pink/torso.png", moves.get(Random())));
+        legs_b.add(new BodyPart( 100, 20, 40, 30, "/MainPackage/character/Yellow/leg_b.png"));
+        legs_b.add(new BodyPart( 50, 50, 10, 20, "/MainPackage/character/Gray/leg_b.png"));
+        legs_b.add(new BodyPart( 150, 10, 70, 10, "/MainPackage/character/Pink/leg_b.png"));
 
-        legs_b.add(new BodyPart("Ylegb", 100, 20, 40, 30, "/MainPackage/Character/Yellow/leg_b.png"));
-        legs_b.add(new BodyPart("Glegb", 50, 50, 10, 20, "/MainPackage/Character/Gray/leg_b.png"));
-        legs_b.add(new BodyPart("Plegb", 150, 10, 70, 10, "/MainPackage/Character/Pink/leg_b.png"));
+        legs_f.add(new BodyPart( 100, 20, 40, 30, "/MainPackage/character/Yellow/leg_f.png", moves.get(random())));
+        legs_f.add(new BodyPart( 50, 50, 10, 20, "/MainPackage/character/Gray/leg_f.png", moves.get(random())));
+        legs_f.add(new BodyPart( 150, 10, 70, 10, "/MainPackage/character/Pink/leg_f.png", moves.get(random())));
 
-        legs_f.add(new BodyPart("Ylegf", 100, 20, 40, 30, "/MainPackage/Character/Yellow/leg_f.png", moves.get(Random())));
-        legs_f.add(new BodyPart("Glegf", 50, 50, 10, 20, "/MainPackage/Character/Gray/leg_f.png", moves.get(Random())));
-        legs_f.add(new BodyPart("Plegf", 150, 10, 70, 10, "/MainPackage/Character/Pink/leg_f.png", moves.get(Random())));
+        arms_b.add(new BodyPart( 100, 20, 50, 20, "/MainPackage/character/Yellow/arm_b.png"));
+        arms_b.add(new BodyPart(50, 40, 10, 30, "/MainPackage/character/Gray/arm_b.png"));
+        arms_b.add(new BodyPart(150, 10, 70, 10, "/MainPackage/character/Pink/arm_b.png"));
 
-        arms_b.add(new BodyPart("Yarmb", 100, 20, 50, 20, "/MainPackage/Character/Yellow/arm_b.png"));
-        arms_b.add(new BodyPart("Garmb", 50, 40, 10, 30, "/MainPackage/Character/Gray/arm_b.png"));
-        arms_b.add(new BodyPart("Parmb", 150, 10, 70, 10, "/MainPackage/Character/Pink/arm_b.png"));
-
-        arms_f.add(new BodyPart("Yarmf", 100, 20, 50, 20, "/MainPackage/Character/Yellow/arm_f.png", moves.get(Random())));
-        arms_f.add(new BodyPart("Garmf", 50, 40, 10, 30, "/MainPackage/Character/Gray/arm_f.png", moves.get(Random())));
-        arms_f.add(new BodyPart("Parmf", 150, 10, 70, 10, "/MainPackage/Character/Pink/arm_f.png", moves.get(Random())));
+        arms_f.add(new BodyPart( 100, 20, 50, 20, "/MainPackage/character/Yellow/arm_f.png", moves.get(random())));
+        arms_f.add(new BodyPart( 50, 40, 10, 30, "/MainPackage/character/Gray/arm_f.png", moves.get(random())));
+        arms_f.add(new BodyPart( 150, 10, 70, 10, "/MainPackage/character/Pink/arm_f.png", moves.get(random())));
 
     }
 
     /**
      * Przycisk do wylaczenia calej aplikacji.
      */
-    public void ExitButtonAction() {
+    public void exitButtonAction() {
         Platform.exit();
     }
 
@@ -119,9 +122,8 @@ public class MainController {
      * W teorii zmienia nam scene, jednak bez podmiany naszego Main.stage.
      * @throws IOException Na potrzebe braku sciezki do pliku FXML.
      */
-    public void StartButtonAction() throws IOException {
-        Parent loader = FXMLLoader.load(getClass().getResource("/MainPackage/Fxml/BeginGameMenu.fxml"));
-
-        Main.stage.getScene().setRoot(loader);
+    public void startButtonAction() throws IOException {
+        Parent loader = FXMLLoader.load(getClass().getResource("/MainPackage/Fxml/CreateTeamMenu.fxml"));
+        stage.getScene().setRoot(loader);
     }
 }

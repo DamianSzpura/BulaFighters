@@ -24,12 +24,12 @@
                   <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#cccccc" height="600.0" layoutX="150.0" layoutY="100.0" stroke="#666666" width="700.0" />
                   <AnchorPane layoutX="150.0" layoutY="99.0" prefHeight="600.0" prefWidth="700.0">
                      <children>
-                        <Button fx:id="StartButton" layoutX="100.0" layoutY="120.0" mnemonicParsing="false" onAction="#StartButtonAction" prefHeight="120.0" prefWidth="500.0" text="START">
+                        <Button fx:id="StartButton" layoutX="100.0" layoutY="120.0" mnemonicParsing="false" onAction="#startButtonAction" prefHeight="120.0" prefWidth="500.0" text="Create team">
                            <font>
                               <Font name="Marlett" size="48.0" />
                            </font>
                         </Button>
-                        <Button fx:id="ExitButton" layoutX="100.0" layoutY="360.0" mnemonicParsing="false" onAction="#ExitButtonAction" prefHeight="120.0" prefWidth="500.0" text="EXIT">
+                        <Button fx:id="ExitButton" layoutX="100.0" layoutY="360.0" mnemonicParsing="false" onAction="#exitButtonAction" prefHeight="120.0" prefWidth="500.0" text="Exit">
                            <font>
                               <Font name="Marlett" size="48.0" />
                            </font>

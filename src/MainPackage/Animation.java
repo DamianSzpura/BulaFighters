@@ -53,7 +53,7 @@ class Animation {
      * @param event przekazuje funkcję wywołaną przy zakończeniu animacji.
      */
 
-    static void HeadbuttOne(AnchorPane groupOne, AnchorPane groupTwo, Rectangle background, EventHandler<ActionEvent> event){
+    static void headbuttOne(AnchorPane groupOne, AnchorPane groupTwo, Rectangle background, EventHandler<ActionEvent> event){
 
         final Timeline timeline = new Timeline();
         timeline.setCycleCount(2);
@@ -86,7 +86,7 @@ class Animation {
      * @param event przekazuje funkcję wywołaną przy zakończeniu animacji.
      */
 
-    static void HeadbuttTwo(AnchorPane groupTwo, AnchorPane groupOne, Rectangle background, EventHandler<ActionEvent> event){
+    static void headbuttTwo(AnchorPane groupTwo, AnchorPane groupOne, Rectangle background, EventHandler<ActionEvent> event){
 
         final Timeline timeline = new Timeline();
         timeline.setCycleCount(2);
@@ -118,7 +118,7 @@ class Animation {
      * @param event przekazuje funkcję wywołaną przy zakończeniu animacji.
      */
 
-    static void HeadbuttOneMiss(AnchorPane groupOne, AnchorPane groupTwo, EventHandler<ActionEvent> event){
+    static void headbuttOneMiss(AnchorPane groupOne, AnchorPane groupTwo, EventHandler<ActionEvent> event){
 
         final Timeline timeline = new Timeline();
         timeline.setCycleCount(2);
@@ -146,7 +146,7 @@ class Animation {
      * @param event przekazuje funkcję wywołaną przy zakończeniu animacji.
      */
 
-    static void HeadbuttTwoMiss(AnchorPane groupTwo, AnchorPane groupOne, EventHandler<ActionEvent> event){
+    static void headbuttTwoMiss(AnchorPane groupTwo, AnchorPane groupOne, EventHandler<ActionEvent> event){
 
         final Timeline timeline = new Timeline();
         timeline.setCycleCount(2);
@@ -172,7 +172,7 @@ class Animation {
      * @param label kieruje nam jaki label ma poruszyc.
      */
 
-    static void DamageAnimate(Label label){
+    static void damageAnimate(Label label){
 
         final Timeline timeline = new Timeline();
         timeline.setCycleCount(1);

@@ -1,14 +1,13 @@
-package Teams;
+package teams;
 
 import java.io.Serializable;
-import java.util.*;
 
 /**
  * Klasa niezbedna do tworzenia fighterow.
  * Wykorzystuje w sobie bodypart.
  */
 
-public class Fighter implements Serializable {
+public class Fighter implements Serializable, Cloneable {
     /**
      * Pole nazwy fighter.
      */
@@ -111,5 +110,9 @@ public class Fighter implements Serializable {
         int Speed;
         Speed = this.arm_f.getSpeed() + this.arm_b.getSpeed() + this.leg_f.getSpeed() + this.leg_b.getSpeed() + this.head.getSpeed() + this.torso.getSpeed();
         return Speed;
+    }
+
+    public Object clone() throws CloneNotSupportedException {
+        return super.clone();
     }
 }

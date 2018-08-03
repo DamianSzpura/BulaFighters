@@ -19,7 +19,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainPackage.CombatMenuController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainPackage.CombatMenuController">
    <children>
       <Rectangle fx:id="background" arcHeight="5.0" arcWidth="5.0" height="800.0" stroke="TRANSPARENT" strokeType="INSIDE" width="1000.0">
          <fill>
@@ -40,7 +40,7 @@
                </stops>
             </LinearGradient>
          </fill></Rectangle>
-      <Label fx:id="EndGame" layoutX="220.0" layoutY="200.0" text="PLAYER 1 WINS" visible="false">
+      <Label fx:id="endGame" layoutX="220.0" layoutY="200.0" text="PLAYER 1 WINS" visible="false">
          <font>
             <Font name="Arial Bold" size="72.0" />
          </font>
@@ -87,32 +87,32 @@
          <children>
             <ImageView id="p1arm_b" fx:id="p1arm_b" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Character/Gray/arm_b.png" />
+                  <Image url="@../character/Gray/arm_b.png" />
                </image>
             </ImageView>
             <ImageView id="p1leg_b" fx:id="p1leg_b" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Character/Gray/leg_b.png" />
+                  <Image url="@../character/Gray/leg_b.png" />
                </image>
             </ImageView>
             <ImageView id="p1torso" fx:id="p1torso" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Character/Gray/torso.png" />
+                  <Image url="@../character/Gray/torso.png" />
                </image>
             </ImageView>
             <ImageView id="p1head" fx:id="p1head" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Character/Gray/head.png" />
+                  <Image url="@../character/Gray/head.png" />
                </image>
             </ImageView>
             <ImageView id="p1leg_f" fx:id="p1leg_f" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Character/Gray/leg_f.png" />
+                  <Image url="@../character/Gray/leg_f.png" />
                </image>
             </ImageView>
             <ImageView id="p1arm_f" fx:id="p1arm_f" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Character/Gray/arm_f.png" />
+                  <Image url="@../character/Gray/arm_f.png" />
                </image>
             </ImageView>
          </children>
@@ -121,32 +121,32 @@
          <children>
             <ImageView id="p2arm_b" fx:id="p2arm_b" fitHeight="150.0" fitWidth="200.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Character/Gray/arm_b.png" />
+                  <Image url="@../character/Gray/arm_b.png" />
                </image>
             </ImageView>
             <ImageView id="p2leg_b" fx:id="p2leg_b" fitHeight="150.0" fitWidth="200.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Character/Gray/leg_b.png" />
+                  <Image url="@../character/Gray/leg_b.png" />
                </image>
             </ImageView>
             <ImageView id="p2torso" fx:id="p2torso" fitHeight="150.0" fitWidth="200.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Character/Gray/torso.png" />
+                  <Image url="@../character/Gray/torso.png" />
                </image>
             </ImageView>
             <ImageView id="p2head" fx:id="p2head" fitHeight="150.0" fitWidth="200.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Character/Gray/head.png" />
+                  <Image url="@../character/Gray/head.png" />
                </image>
             </ImageView>
             <ImageView id="p2leg_f" fx:id="p2leg_f" fitHeight="150.0" fitWidth="200.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Character/Gray/leg_f.png" />
+                  <Image url="@../character/Gray/leg_f.png" />
                </image>
             </ImageView>
             <ImageView id="p2arm_f" fx:id="p2arm_f" fitHeight="150.0" fitWidth="200.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Character/Gray/arm_f.png" />
+                  <Image url="@../character/Gray/arm_f.png" />
                </image>
             </ImageView>
          </children>
@@ -156,19 +156,19 @@
           <AnchorPane fx:id="playerOneMenu" minHeight="0.0" minWidth="0.0" prefHeight="198.0" prefWidth="382.0" style="-fx-border-color: Black;">
                <children>
                   <ProgressBar fx:id="healthBarOne" layoutX="15.0" layoutY="19.0" prefHeight="35.0" prefWidth="467.0" progress="0.0" />
-                  <Label fx:id="HealthOne" alignment="CENTER" layoutX="15.0" layoutY="28.0" prefHeight="17.0" prefWidth="467.0" text="Health:" textAlignment="CENTER">
+                  <Label fx:id="healthOne" alignment="CENTER" layoutX="15.0" layoutY="28.0" prefHeight="17.0" prefWidth="467.0" text="Health:" textAlignment="CENTER">
                      <font>
                         <Font name="System Bold" size="12.0" />
                      </font></Label>
-                  <Label fx:id="AttackOne" layoutX="317.0" layoutY="135.0" prefWidth="135.0" text="Attack:">
+                  <Label fx:id="attackOne" layoutX="317.0" layoutY="135.0" prefWidth="135.0" text="Attack:">
                      <font>
                         <Font size="20.0" />
                      </font></Label>
-                  <Label fx:id="DefenceOne" layoutX="308.0" layoutY="165.0" text="Defence:">
+                  <Label fx:id="defenceOne" layoutX="308.0" layoutY="165.0" text="Defence:">
                      <font>
                         <Font size="20.0" />
                      </font></Label>
-                  <Label fx:id="SpeedOne" layoutX="317.0" layoutY="195.0" text="Speed:">
+                  <Label fx:id="speedOne" layoutX="317.0" layoutY="195.0" text="Speed:">
                      <font>
                         <Font size="20.0" />
                      </font></Label>
@@ -192,19 +192,19 @@
           <AnchorPane fx:id="playerTwoMenu" minHeight="0.0" minWidth="0.0" prefHeight="290.0" prefWidth="497.0" style="-fx-border-color: black;">
                <children>
                   <ProgressBar fx:id="healthBarTwo" layoutX="15.0" layoutY="19.0" prefHeight="35.0" prefWidth="467.0" progress="0.0" />
-                  <Label fx:id="HealthTwo" alignment="CENTER" layoutX="14.0" layoutY="28.0" prefHeight="17.0" prefWidth="467.0" text="Health:" textAlignment="CENTER">
+                  <Label fx:id="healthTwo" alignment="CENTER" layoutX="14.0" layoutY="28.0" prefHeight="17.0" prefWidth="467.0" text="Health:" textAlignment="CENTER">
                      <font>
                         <Font name="System Bold" size="12.0" />
                      </font></Label>
-                  <Label fx:id="AttackTwo" layoutX="104.0" layoutY="137.0" text="Attack:">
+                  <Label fx:id="attackTwo" layoutX="104.0" layoutY="137.0" text="Attack:">
                      <font>
                         <Font size="20.0" />
                      </font></Label>
-                  <Label fx:id="DefenceTwo" layoutX="97.0" layoutY="167.0" text="Defence:">
+                  <Label fx:id="defenceTwo" layoutX="97.0" layoutY="167.0" text="Defence:">
                      <font>
                         <Font size="20.0" />
                      </font></Label>
-                  <Label fx:id="SpeedTwo" layoutX="104.0" layoutY="197.0" text="Speed:">
+                  <Label fx:id="speedTwo" layoutX="104.0" layoutY="197.0" text="Speed:">
                      <font>
                         <Font size="20.0" />
                      </font></Label>
@@ -227,31 +227,31 @@
                </children></AnchorPane>
         </items>
       </SplitPane>
-      <Button fx:id="EndGameButton" layoutX="350.0" layoutY="700.0" mnemonicParsing="false" onAction="#EndGameButtonAction" prefHeight="50.0" prefWidth="300.0" text="End Game" visible="false">
+      <Button fx:id="endGameButton" layoutX="350.0" layoutY="700.0" mnemonicParsing="false" onAction="#endGameButtonAction" prefHeight="50.0" prefWidth="300.0" text="End Game" visible="false">
          <font>
             <Font size="24.0" />
          </font>
       </Button>
-      <Label fx:id="damageOne" alignment="CENTER" contentDisplay="CENTER" layoutX="105.0" layoutY="104.0" prefHeight="59.0" prefWidth="189.0" text="12 DMG" textFill="WHITE">
+      <Label fx:id="damageOne" alignment="CENTER" contentDisplay="CENTER" layoutX="11.0" layoutY="104.0" prefHeight="59.0" prefWidth="467.0" text="12 DMG" textFill="WHITE">
          <font>
             <Font size="41.0" />
          </font>
       </Label>
-      <Label fx:id="damageTwo" alignment="CENTER" layoutX="706.0" layoutY="104.0" prefHeight="59.0" prefWidth="189.0" text="12 DMG" textFill="WHITE">
+      <Label fx:id="damageTwo" alignment="CENTER" layoutX="522.0" layoutY="104.0" prefHeight="59.0" prefWidth="467.0" text="12 DMG" textFill="WHITE">
          <font>
             <Font size="41.0" />
          </font>
       </Label>
-      <AnchorPane fx:id="PaneMoveShow" prefHeight="160.0" prefWidth="196.0" visible="false">
+      <AnchorPane fx:id="paneMoveShow" prefHeight="160.0" prefWidth="196.0" visible="false">
          <children>
             <Pane prefHeight="160.0" prefWidth="200.0" style="-fx-background-color: White; -fx-border-color: black;">
                <children>
                   <Label layoutX="14.0" layoutY="20.0" prefHeight="40.0" prefWidth="120.0" text="Name:" />
-                  <Label fx:id="MoveNamePane" layoutX="74.0" layoutY="20.0" prefHeight="40.0" prefWidth="120.0" text="Label" />
+                  <Label fx:id="moveNamePane" layoutX="74.0" layoutY="20.0" prefHeight="40.0" prefWidth="120.0" text="Label" />
                   <Label layoutX="14.0" layoutY="60.0" prefHeight="40.0" prefWidth="120.0" text="Damage:" />
-                  <Label fx:id="MoveDamagePane" layoutX="74.0" layoutY="60.0" prefHeight="40.0" prefWidth="120.0" text="Label" />
+                  <Label fx:id="moveDamagePane" layoutX="74.0" layoutY="60.0" prefHeight="40.0" prefWidth="120.0" text="Label" />
                   <Label layoutX="14.0" layoutY="100.0" prefHeight="40.0" prefWidth="120.0" text="Hit:" />
-                  <Label fx:id="MoveHitChancePane" layoutX="74.0" layoutY="100.0" prefHeight="40.0" prefWidth="120.0" text="Label" />
+                  <Label fx:id="moveHitChancePane" layoutX="74.0" layoutY="100.0" prefHeight="40.0" prefWidth="120.0" text="Label" />
                </children></Pane>
          </children>
       </AnchorPane>

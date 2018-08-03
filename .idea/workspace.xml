@@ -10,10 +10,52 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/teams/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Projekt/MainPackage/Animation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Projekt/MainPackage/Animation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Projekt/MainPackage/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Projekt/MainPackage/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projekt/MainPackage/BeginGameController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projekt/MainPackage/CombatMenuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Projekt/MainPackage/CombatMenuController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projekt/MainPackage/CreateTeamController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Projekt/MainPackage/CreateTeamController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projekt/MainPackage/Fxml/BeginGameMenu.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projekt/MainPackage/Fxml/CombatMenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Projekt/MainPackage/Fxml/CombatMenu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projekt/MainPackage/Fxml/CreateTeamMenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Projekt/MainPackage/Fxml/CreateTeamMenu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projekt/MainPackage/Fxml/MainMenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Projekt/MainPackage/Fxml/MainMenu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projekt/MainPackage/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Projekt/MainPackage/MainController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Projekt/Teams/BodyPart.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Projekt/Teams/BodyPart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projekt/Teams/Fighter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Projekt/Teams/Fighter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projekt/Teams/Move.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Projekt/Teams/Move.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainPackage/Animation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPackage/Animation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainPackage/BeginGameController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainPackage/Character/Gray/arm_b.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPackage/character/Gray/arm_b.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainPackage/Character/Gray/arm_f.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPackage/character/Gray/arm_f.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainPackage/Character/Gray/head.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPackage/character/Gray/head.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainPackage/Character/Gray/leg_b.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPackage/character/Gray/leg_b.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainPackage/Character/Gray/leg_f.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPackage/character/Gray/leg_f.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainPackage/Character/Gray/torso.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPackage/character/Gray/torso.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainPackage/Character/Pink/arm_b.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPackage/character/Pink/arm_b.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainPackage/Character/Pink/arm_f.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPackage/character/Pink/arm_f.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainPackage/Character/Pink/head.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPackage/character/Pink/head.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainPackage/Character/Pink/leg_b.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPackage/character/Pink/leg_b.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainPackage/Character/Pink/leg_f.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPackage/character/Pink/leg_f.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainPackage/Character/Pink/torso.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPackage/character/Pink/torso.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainPackage/Character/Yellow/arm_b.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPackage/character/Yellow/arm_b.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainPackage/Character/Yellow/arm_f.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPackage/character/Yellow/arm_f.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainPackage/Character/Yellow/head.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPackage/character/Yellow/head.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainPackage/Character/Yellow/leg_b.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPackage/character/Yellow/leg_b.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainPackage/Character/Yellow/leg_f.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPackage/character/Yellow/leg_f.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainPackage/Character/Yellow/torso.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPackage/character/Yellow/torso.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainPackage/CombatMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPackage/CombatMenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainPackage/CreateTeamController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPackage/CreateTeamController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainPackage/Fxml/BeginGameMenu.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainPackage/Fxml/CombatMenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPackage/Fxml/CombatMenu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainPackage/Fxml/CreateTeamMenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPackage/Fxml/CreateTeamMenu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainPackage/Fxml/MainMenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPackage/Fxml/MainMenu.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MainPackage/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPackage/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainPackage/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPackage/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Teams/BodyPart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/teams/BodyPart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Teams/Fighter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/teams/Fighter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Teams/Move.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/teams/Move.java" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,6 +66,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -71,11 +116,54 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CombatMenuController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CombatMenuController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MainPackage/CombatMenuController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="26" column="82" selection-start-line="26" selection-start-column="82" selection-end-line="26" selection-end-column="82" />
+            <state relative-caret-position="17">
+              <caret line="339" column="45" selection-start-line="339" selection-start-column="45" selection-end-line="339" selection-end-column="45" />
+              <folding>
+                <element signature="docComment;class#CombatMenuController#0" />
+                <element signature="e#901#1010#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FXMLLoader.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/javafx.fxml/javafx/fxml/FXMLLoader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="26554">
+              <caret line="1670" selection-start-line="1670" selection-end-line="1670" />
+              <folding>
+                <element signature="e#67760#67761#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Event.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/javafx.base/javafx/event/Event.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2737">
+              <caret line="198" selection-start-line="198" selection-end-line="198" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Node.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/javafx.graphics/javafx/scene/Node.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136714">
+              <caret line="8865" selection-start-line="8865" selection-end-line="8865" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Button.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/javafx.controls/javafx/scene/control/Button.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2533">
+              <caret line="201" selection-start-line="201" selection-end-line="201" />
             </state>
           </provider>
         </entry>
@@ -83,26 +171,29 @@
       <file leaf-file-name="CreateTeamController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MainPackage/CreateTeamController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="16" column="114" selection-start-line="16" selection-start-column="114" selection-end-line="16" selection-end-column="114" />
+            <state relative-caret-position="4777">
+              <caret line="298" selection-start-line="298" selection-end-line="298" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/MainPackage/Main.java">
+      <file leaf-file-name="Labeled.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/javafx.controls/javafx/scene/control/Labeled.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="38" column="21" lean-forward="true" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+            <state relative-caret-position="1377">
+              <caret line="146" column="45" selection-start-line="146" selection-start-column="45" selection-end-line="146" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BeginGameController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MainPackage/BeginGameController.java">
+      <file leaf-file-name="Animation.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/javafx.graphics/javafx/animation/Animation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+            <state relative-caret-position="17459">
+              <caret line="1133" selection-start-line="1133" selection-end-line="1133" />
             </state>
           </provider>
         </entry>
@@ -110,57 +201,25 @@
       <file leaf-file-name="MainController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MainPackage/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="13" selection-start-line="13" selection-end-line="15" selection-end-column="3" />
+            <state relative-caret-position="1003">
+              <caret line="73" column="58" selection-start-line="73" selection-start-column="58" selection-end-line="73" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1617#1618#0" expanded="true" />
+                <element signature="e#1666#1667#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Projekt.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Projekt.iml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="Animation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MainPackage/Animation.java">
+      <file leaf-file-name="AnimationAccessorImpl.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/javafx.graphics/javafx/animation/AnimationAccessorImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+            <state relative-caret-position="374">
+              <caret line="49" selection-start-line="49" selection-end-line="49" />
               <folding>
-                <element signature="method#HeadbuttOne#0;class#Animation#0" />
+                <element signature="e#877#878#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BodyPart.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Teams/BodyPart.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Move.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Teams/Move.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="58" column="31" selection-start-line="58" selection-start-column="31" selection-end-line="58" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Fighter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Teams/Fighter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="106" column="33" selection-start-line="106" selection-start-column="33" selection-end-line="106" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -172,8 +231,8 @@
       <list>
         <option value="Tag Library Descriptor" />
         <option value="FxmlFile" />
-        <option value="Class" />
         <option value="Arquillian JUnit Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -185,6 +244,7 @@
       <find>stats</find>
       <find>playerthird</find>
       <find>private</find>
+      <find>turnCounter</find>
     </findStrings>
     <replaceStrings>
       <replace>fighter</replace>
@@ -202,10 +262,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/sample/sample.fxml" />
-        <option value="$PROJECT_DIR$/src/Game/sample.fxml" />
-        <option value="$PROJECT_DIR$/src/Game/Main.java" />
-        <option value="$PROJECT_DIR$/src/Game/MainMenu.fxml" />
         <option value="$PROJECT_DIR$/src/Game/Controller.java" />
         <option value="$PROJECT_DIR$/src/Game/MainController.java" />
         <option value="$PROJECT_DIR$/src/MainPackage/BeginGame/Fxml/BeginGameMenu.fxml" />
@@ -220,28 +276,43 @@
         <option value="$PROJECT_DIR$/src/Options/Fxml/OptionsMenu.fxml" />
         <option value="$PROJECT_DIR$/src/Combat/Fxml/CombatMenuController.java" />
         <option value="$PROJECT_DIR$/src/BeginGame/Fxml/BeginGameMenu.fxml" />
-        <option value="$PROJECT_DIR$/src/MainPackage/Fxml/MainMenu.fxml" />
         <option value="$PROJECT_DIR$/src/Combat/Fxml/CombatMenu.fxml" />
         <option value="$PROJECT_DIR$/src/CreateTeam/Fxml/CreateTeamMenu.fxml" />
         <option value="$PROJECT_DIR$/src/Combat/CombatMenuController.java" />
         <option value="$PROJECT_DIR$/src/CreateTeam/CreateTeamController.java" />
         <option value="$PROJECT_DIR$/src/BeginGame/BeginGameController.java" />
         <option value="$PROJECT_DIR$/src/MainPackage/Fxml/BeginGameMenu.fxml" />
-        <option value="$PROJECT_DIR$/src/MainPackage/Fxml/CombatMenu.fxml" />
-        <option value="$PROJECT_DIR$/src/MainPackage/Fxml/CreateTeamMenu.fxml" />
         <option value="$PROJECT_DIR$/src/MainPackage/Fxml/Animations.java" />
         <option value="$PROJECT_DIR$/src/MainPackage/Animations.java" />
         <option value="$PROJECT_DIR$/src/MainPackage/AnimationsOne.java" />
         <option value="$PROJECT_DIR$/src/MainPackage/MainControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/MainPackage/MainController.java" />
-        <option value="$PROJECT_DIR$/src/MainPackage/CreateTeamController.java" />
-        <option value="$PROJECT_DIR$/src/MainPackage/CombatMenuController.java" />
-        <option value="$PROJECT_DIR$/src/MainPackage/BeginGameController.java" />
-        <option value="$PROJECT_DIR$/src/Teams/Fighter.java" />
-        <option value="$PROJECT_DIR$/src/Teams/Move.java" />
         <option value="$PROJECT_DIR$/src/MainPackage/Animation.java" />
         <option value="$PROJECT_DIR$/src/Teams/BodyPart.java" />
         <option value="$PROJECT_DIR$/src/MainPackage/Main.java" />
+        <option value="$PROJECT_DIR$/src/Teams/Fighter.java" />
+        <option value="$PROJECT_DIR$/src/MainPackage/BeginGameController.java" />
+        <option value="$PROJECT_DIR$/src/MainPackage/Fxml/MainMenu.fxml" />
+        <option value="$PROJECT_DIR$/src/MainPackage/Fxml/CreateTeamMenu.fxml" />
+        <option value="$PROJECT_DIR$/src/Teams/SpecialMove.java" />
+        <option value="$PROJECT_DIR$/src/Teams/Player.java" />
+        <option value="$PROJECT_DIR$/src/Teams/Move.java" />
+        <option value="$PROJECT_DIR$/src/mainpackage/fxml/CombatMenu.fxml" />
+        <option value="$PROJECT_DIR$/src/mainpackage/Animation.java" />
+        <option value="$PROJECT_DIR$/src/teams/BodyPart.java" />
+        <option value="$PROJECT_DIR$/src/mainpackage/MainController.java" />
+        <option value="$PROJECT_DIR$/src/mainpackage/CombatMenuController.java" />
+        <option value="$PROJECT_DIR$/src/mainpackage/CreateTeamController.java" />
+        <option value="$PROJECT_DIR$/src/ainpackage/CreateTeamController.java" />
+        <option value="$PROJECT_DIR$/src/Mainpackage/CreateTeamController.java" />
+        <option value="$PROJECT_DIR$/.idea/excludeFromValidation.xml" />
+        <option value="$PROJECT_DIR$/src/Mainpackage/CombatMenuController.java" />
+        <option value="$PROJECT_DIR$/src/teams/Fighter.java" />
+        <option value="$PROJECT_DIR$/src/teams/Move.java" />
+        <option value="$PROJECT_DIR$/src/teams/Player.java" />
+        <option value="$PROJECT_DIR$/src/MainPackage/Fxml/CombatMenu.fxml" />
+        <option value="$PROJECT_DIR$/src/MainPackage/CreateTeamController.java" />
+        <option value="$PROJECT_DIR$/src/MainPackage/MainController.java" />
+        <option value="$PROJECT_DIR$/src/MainPackage/CombatMenuController.java" />
       </list>
     </option>
   </component>
@@ -275,6 +346,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -285,7 +357,18 @@
             <path>
               <item name="Projekt" type="b2602c69:ProjectViewProjectNode" />
               <item name="Projekt" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+              <item name="javafx" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Projekt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projekt" type="462c0819:PsiDirectoryNode" />
+              <item name="javafx" type="462c0819:PsiDirectoryNode" />
+              <item name="fxml" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Projekt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projekt" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Projekt" type="b2602c69:ProjectViewProjectNode" />
@@ -303,31 +386,7 @@
               <item name="Projekt" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="MainPackage" type="462c0819:PsiDirectoryNode" />
-              <item name="Character" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Projekt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Projekt" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="MainPackage" type="462c0819:PsiDirectoryNode" />
-              <item name="Character" type="462c0819:PsiDirectoryNode" />
-              <item name="Gray" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Projekt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Projekt" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="MainPackage" type="462c0819:PsiDirectoryNode" />
-              <item name="Character" type="462c0819:PsiDirectoryNode" />
-              <item name="Pink" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Projekt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Projekt" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="MainPackage" type="462c0819:PsiDirectoryNode" />
-              <item name="Character" type="462c0819:PsiDirectoryNode" />
-              <item name="Yellow" type="462c0819:PsiDirectoryNode" />
+              <item name="character" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Projekt" type="b2602c69:ProjectViewProjectNode" />
@@ -336,13 +395,18 @@
               <item name="MainPackage" type="462c0819:PsiDirectoryNode" />
               <item name="Fxml" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Projekt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projekt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="teams" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -361,11 +425,12 @@
     <property name="create.test.in.the.same.root" value="true" />
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.excludes" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -374,16 +439,16 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Damia\Projekt\src\MainPackage\Fxml" />
-      <recent name="C:\Users\Damia\Projekt\src\Options\Fxml" />
-      <recent name="C:\Users\Damia\Projekt\src\Fxml" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="MainPackage" />
       <recent name="" />
       <recent name="MainPackage.MorePackages.BeginGame.MorePackages" />
       <recent name="MainPackage.MorePackages" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Damia\Projekt\src\MainPackage\Fxml" />
+      <recent name="C:\Users\Damia\Projekt\src\Options\Fxml" />
+      <recent name="C:\Users\Damia\Projekt\src\Fxml" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Damia\Projekt\src" />
@@ -551,11 +616,16 @@
       <workItem from="1528305645142" duration="2240000" />
       <workItem from="1531129603706" duration="729000" />
       <workItem from="1531132383363" duration="186000" />
+      <workItem from="1531301311792" duration="1322000" />
+      <workItem from="1532434999643" duration="16118000" />
+      <workItem from="1533110808707" duration="3048000" />
+      <workItem from="1533113883804" duration="12444000" />
+      <workItem from="1533303883431" duration="1169000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95072000" />
+    <option name="totallyTimeSpent" value="129173000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -571,30 +641,30 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4983462" weight="0.32985386" />
-      <window_info anchor="bottom" id="Messages" order="15" sideWeight="0.49944875" weight="0.32776618" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50161463" side_tool="true" visible="true" weight="0.30682978" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5118407" side_tool="true" weight="0.020387359" />
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.3296582" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49838537" weight="0.30682978" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4881593" weight="0.019832985" />
       <window_info anchor="bottom" id="Terminal" order="14" sideWeight="0.49889746" weight="0.32985386" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7014614" visible="true" weight="0.15769644" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7014614" visible="true" weight="0.15931642" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info id="Structure" order="1" sideWeight="0.29853863" side_tool="true" weight="0.1477398" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24972437" />
       <window_info id="UI Designer" order="3" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39874738" />
+      <window_info id="Favorites" order="4" side_tool="true" weight="0.3296582" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49300322" weight="0.39770356" />
       <window_info anchor="right" id="JetGradle" order="6" />
+      <window_info anchor="bottom" id="Messages" order="15" sideWeight="0.48923573" weight="0.32721713" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32881" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4790097" weight="0.3282365" />
       <window_info anchor="bottom" id="Changes" order="7" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Profiler" order="9" />
@@ -607,8 +677,7 @@
       <window_info anchor="bottom" id="Application Servers" order="11" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info id="Image Layers" order="6" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42797494" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4881593" visible="true" weight="0.020387359" />
       <window_info anchor="right" id="JetGradle" order="6" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24972437" />
       <window_info id="UI Designer" order="3" />
@@ -618,25 +687,26 @@
       <window_info id="Capture Tool" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5118407" side_tool="true" visible="true" weight="0.020387359" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="15" weight="0.32881" />
+      <window_info anchor="bottom" id="Messages" order="15" sideWeight="0.48923573" weight="0.32721713" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4983462" weight="0.32985386" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Problems" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
-      <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info anchor="bottom" id="Terminal" order="14" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7014614" visible="true" weight="0.1477398" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="right" id="Maven Projects" order="4" weight="0.3296582" />
+      <window_info anchor="bottom" id="Terminal" order="14" sideWeight="0.49889746" weight="0.32985386" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7014614" visible="true" weight="0.15769644" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Structure" order="1" sideWeight="0.29853863" side_tool="true" weight="0.1477398" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32881" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39874738" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4790097" weight="0.3282365" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49300322" weight="0.3985729" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -651,7 +721,161 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="108" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MainPackage/CombatMenuController.java</url>
+          <line>229</line>
+          <properties />
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MainPackage/CombatMenuController.java</url>
+          <line>231</line>
+          <properties />
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MainPackage/CombatMenuController.java</url>
+          <line>232</line>
+          <properties />
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MainPackage/CombatMenuController.java</url>
+          <line>234</line>
+          <properties />
+          <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MainPackage/CombatMenuController.java</url>
+          <line>235</line>
+          <properties />
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MainPackage/CombatMenuController.java</url>
+          <line>237</line>
+          <properties />
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MainPackage/CombatMenuController.java</url>
+          <line>297</line>
+          <properties />
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MainPackage/CombatMenuController.java</url>
+          <line>298</line>
+          <properties />
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MainPackage/CombatMenuController.java</url>
+          <line>238</line>
+          <properties />
+          <option name="timeStamp" value="161" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MainPackage/CombatMenuController.java</url>
+          <line>239</line>
+          <properties />
+          <option name="timeStamp" value="162" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MainPackage/CombatMenuController.java</url>
+          <line>307</line>
+          <properties />
+          <option name="timeStamp" value="164" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MainPackage/CombatMenuController.java</url>
+          <line>308</line>
+          <properties />
+          <option name="timeStamp" value="165" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MainPackage/CombatMenuController.java</url>
+          <line>309</line>
+          <properties />
+          <option name="timeStamp" value="166" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MainPackage/CombatMenuController.java</url>
+          <line>310</line>
+          <properties />
+          <option name="timeStamp" value="167" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MainPackage/CombatMenuController.java</url>
+          <line>311</line>
+          <properties />
+          <option name="timeStamp" value="168" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MainPackage/CombatMenuController.java</url>
+          <line>312</line>
+          <properties />
+          <option name="timeStamp" value="169" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MainPackage/CombatMenuController.java</url>
+          <line>314</line>
+          <properties />
+          <option name="timeStamp" value="170" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MainPackage/CombatMenuController.java</url>
+          <line>313</line>
+          <properties />
+          <option name="timeStamp" value="171" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MainPackage/CombatMenuController.java</url>
+          <line>315</line>
+          <properties />
+          <option name="timeStamp" value="172" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MainPackage/CombatMenuController.java</url>
+          <line>316</line>
+          <properties />
+          <option name="timeStamp" value="173" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MainPackage/CombatMenuController.java</url>
+          <line>317</line>
+          <properties />
+          <option name="timeStamp" value="174" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MainPackage/CombatMenuController.java</url>
+          <line>318</line>
+          <properties />
+          <option name="timeStamp" value="175" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MainPackage/CombatMenuController.java</url>
+          <line>227</line>
+          <properties />
+          <option name="timeStamp" value="176" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MainPackage/CombatMenuController.java</url>
+          <line>228</line>
+          <properties />
+          <option name="timeStamp" value="177" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/MainPackage/CombatMenuController.java</url>
+          <line>306</line>
+          <properties class="MainPackage.CombatMenuController" method="checkPlayer">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="163" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="178" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -659,102 +883,43 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Teams/Fighter.java">
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/javafx.graphics/javafx/animation/Animation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1785">
-          <caret line="106" column="33" selection-start-line="106" selection-start-column="33" selection-end-line="106" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainPackage/Animation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-          <folding>
-            <element signature="method#HeadbuttOne#0;class#Animation#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainPackage/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainPackage/BeginGameController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainPackage/Animation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="method#HeadbuttOne#0;class#Animation#0" />
-          </folding>
+        <state relative-caret-position="19261">
+          <caret line="1133" selection-start-line="1133" selection-end-line="1133" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MainPackage/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="47" lean-forward="true" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
+        <state relative-caret-position="1003">
+          <caret line="73" column="58" selection-start-line="73" selection-start-column="58" selection-end-line="73" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1617#1618#0" expanded="true" />
+            <element signature="e#1666#1667#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Teams/Fighter.java">
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/javafx.graphics/javafx/animation/AnimationAccessorImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="47" column="14" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
+        <state relative-caret-position="374">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="e#877#878#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Teams/BodyPart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainPackage/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainPackage/CreateTeamController.java" />
-    <entry file="file://$PROJECT_DIR$/src/MainPackage/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="64" selection-start-line="33" selection-start-column="64" selection-end-line="33" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Teams/Team.java" />
-    <entry file="file://$PROJECT_DIR$/src/Teams/Fighter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="29" selection-start-line="12" selection-start-column="4" selection-end-line="17" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Teams/BodyPart.java">
+    <entry file="file://$PROJECT_DIR$/src/teams/BodyPart.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Teams/Move.java">
+    <entry file="file://$PROJECT_DIR$/src/teams/Move.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="27" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="11" selection-end-column="27" />
@@ -811,13 +976,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/javafx.fxml/javafx/fxml/FXMLLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="3245" selection-start-line="3245" selection-end-line="3245" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/jdk/internal/reflect/NativeMethodAccessorImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
@@ -864,13 +1022,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/StartGame/StartGameController.java" />
     <entry file="file://$PROJECT_DIR$/src/Options/OptionsController.java" />
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/javafx.graphics/javafx/scene/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="1469" column="22" selection-start-line="1469" selection-start-column="22" selection-end-line="1469" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/lang/reflect/Field.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="773">
@@ -887,6 +1038,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainPackage/MainControllerTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/MainPackage/aaa.java" />
+    <entry file="file://$PROJECT_DIR$/src/Teams/SpecialMove.java" />
     <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/javafx.base/javafx/event/EventHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -894,10 +1048,158 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainPackage/MainControllerTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/Teams/BodyPart.java">
+    <entry file="file://$PROJECT_DIR$/.idea/excludeFromValidation.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="34">
+          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/teams/Move.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="998">
+          <caret line="67" column="17" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
+          <folding>
+            <element signature="e#1584#1585#0" expanded="true" />
+            <element signature="e#1613#1614#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/teams/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainPackage/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainPackage/Animation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="174" column="29" selection-start-line="174" selection-start-column="29" selection-end-line="174" selection-end-column="29" />
+          <folding>
+            <element signature="method#headbuttOne#0;class#Animation#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/teams/BodyPart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="93" selection-start-line="93" selection-end-line="93" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2262#2263#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/teams/Fighter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="1007" selection-start-line="1007" selection-end-line="1007" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/javafx.base/javafx/beans/property/StringPropertyBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/javafx.base/javafx/beans/property/StringProperty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/javafx.graphics/javafx/animation/AnimationAccessorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="e#877#878#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/javafx.fxml/javafx/fxml/FXMLLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26554">
+          <caret line="1670" selection-start-line="1670" selection-end-line="1670" />
+          <folding>
+            <element signature="e#67760#67761#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/javafx.graphics/javafx/scene/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136714">
+          <caret line="8865" selection-start-line="8865" selection-end-line="8865" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/javafx.controls/javafx/scene/control/Button.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2533">
+          <caret line="201" selection-start-line="201" selection-end-line="201" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/javafx.base/javafx/event/Event.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2737">
+          <caret line="198" selection-start-line="198" selection-end-line="198" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainPackage/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="73" column="58" selection-start-line="73" selection-start-column="58" selection-end-line="73" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1617#1618#0" expanded="true" />
+            <element signature="e#1666#1667#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/javafx.graphics/javafx/animation/Animation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17459">
+          <caret line="1133" selection-start-line="1133" selection-end-line="1133" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/javafx.controls/javafx/scene/control/Labeled.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="146" column="45" selection-start-line="146" selection-start-column="45" selection-end-line="146" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainPackage/CreateTeamController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4777">
+          <caret line="298" selection-start-line="298" selection-end-line="298" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -906,66 +1208,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MainPackage/CombatMenuController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="26" column="82" selection-start-line="26" selection-start-column="82" selection-end-line="26" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainPackage/CreateTeamController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="16" column="114" selection-start-line="16" selection-start-column="114" selection-end-line="16" selection-end-column="114" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainPackage/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="13" selection-start-line="13" selection-end-line="15" selection-end-column="3" />
+          <caret line="339" column="45" selection-start-line="339" selection-start-column="45" selection-end-line="339" selection-end-column="45" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#CombatMenuController#0" />
+            <element signature="e#901#1010#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Teams/Move.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="58" column="31" selection-start-line="58" selection-start-column="31" selection-end-line="58" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Teams/Fighter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="106" column="33" selection-start-line="106" selection-start-column="33" selection-end-line="106" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Projekt.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainPackage/Animation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-          <folding>
-            <element signature="method#HeadbuttOne#0;class#Animation#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainPackage/BeginGameController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainPackage/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="38" column="21" lean-forward="true" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1039,6 +1287,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -1046,6 +1295,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Arquillian JUnit:Release</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
