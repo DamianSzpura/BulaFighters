@@ -10,52 +10,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/teams/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Projekt/MainPackage/Animation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Projekt/MainPackage/Animation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Projekt/MainPackage/BeginGameController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Projekt/MainPackage/CombatMenuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Projekt/MainPackage/CombatMenuController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Projekt/MainPackage/CreateTeamController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Projekt/MainPackage/CreateTeamController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Projekt/MainPackage/Fxml/BeginGameMenu.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Projekt/MainPackage/Fxml/CombatMenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Projekt/MainPackage/Fxml/CombatMenu.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Projekt/MainPackage/Fxml/CreateTeamMenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Projekt/MainPackage/Fxml/CreateTeamMenu.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Projekt/MainPackage/Fxml/MainMenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Projekt/MainPackage/Fxml/MainMenu.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Projekt/MainPackage/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Projekt/MainPackage/MainController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Projekt/Teams/BodyPart.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Projekt/Teams/BodyPart.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Projekt/Teams/Fighter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Projekt/Teams/Fighter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Projekt/Teams/Move.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Projekt/Teams/Move.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainPackage/Animation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPackage/Animation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainPackage/BeginGameController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainPackage/Character/Gray/arm_b.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPackage/character/Gray/arm_b.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainPackage/Character/Gray/arm_f.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPackage/character/Gray/arm_f.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainPackage/Character/Gray/head.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPackage/character/Gray/head.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainPackage/Character/Gray/leg_b.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPackage/character/Gray/leg_b.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainPackage/Character/Gray/leg_f.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPackage/character/Gray/leg_f.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainPackage/Character/Gray/torso.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPackage/character/Gray/torso.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainPackage/Character/Pink/arm_b.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPackage/character/Pink/arm_b.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainPackage/Character/Pink/arm_f.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPackage/character/Pink/arm_f.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainPackage/Character/Pink/head.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPackage/character/Pink/head.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainPackage/Character/Pink/leg_b.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPackage/character/Pink/leg_b.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainPackage/Character/Pink/leg_f.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPackage/character/Pink/leg_f.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainPackage/Character/Pink/torso.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPackage/character/Pink/torso.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainPackage/Character/Yellow/arm_b.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPackage/character/Yellow/arm_b.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainPackage/Character/Yellow/arm_f.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPackage/character/Yellow/arm_f.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainPackage/Character/Yellow/head.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPackage/character/Yellow/head.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainPackage/Character/Yellow/leg_b.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPackage/character/Yellow/leg_b.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainPackage/Character/Yellow/leg_f.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPackage/character/Yellow/leg_f.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainPackage/Character/Yellow/torso.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPackage/character/Yellow/torso.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainPackage/CombatMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPackage/CombatMenuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainPackage/CreateTeamController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPackage/CreateTeamController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainPackage/Fxml/BeginGameMenu.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainPackage/Fxml/CombatMenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPackage/Fxml/CombatMenu.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainPackage/Fxml/CreateTeamMenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPackage/Fxml/CreateTeamMenu.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainPackage/Fxml/MainMenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPackage/Fxml/MainMenu.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainPackage/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPackage/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainPackage/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPackage/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Teams/BodyPart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/teams/BodyPart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Teams/Fighter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/teams/Fighter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Teams/Move.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/teams/Move.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projekt/MainPackage/Animation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projekt/MainPackage/Character/Gray/arm_b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projekt/MainPackage/Character/Gray/arm_f.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projekt/MainPackage/Character/Gray/head.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projekt/MainPackage/Character/Gray/leg_b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projekt/MainPackage/Character/Gray/leg_f.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projekt/MainPackage/Character/Gray/torso.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projekt/MainPackage/Character/Pink/arm_b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projekt/MainPackage/Character/Pink/arm_f.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projekt/MainPackage/Character/Pink/head.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projekt/MainPackage/Character/Pink/leg_b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projekt/MainPackage/Character/Pink/leg_f.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projekt/MainPackage/Character/Pink/torso.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projekt/MainPackage/Character/Yellow/arm_b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projekt/MainPackage/Character/Yellow/arm_f.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projekt/MainPackage/Character/Yellow/head.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projekt/MainPackage/Character/Yellow/leg_b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projekt/MainPackage/Character/Yellow/leg_f.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projekt/MainPackage/Character/Yellow/torso.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projekt/MainPackage/CombatMenuController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projekt/MainPackage/CreateTeamController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projekt/MainPackage/Fxml/CombatMenu.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projekt/MainPackage/Fxml/CreateTeamMenu.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projekt/MainPackage/Fxml/MainMenu.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projekt/MainPackage/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projekt/MainPackage/MainController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projekt/teams/Player.class" beforeDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -116,7 +97,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CombatMenuController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CombatMenuController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MainPackage/CombatMenuController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
@@ -129,16 +110,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FXMLLoader.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/javafx.fxml/javafx/fxml/FXMLLoader.java">
+      <file leaf-file-name="BodyPart.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/teams/BodyPart.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26554">
-              <caret line="1670" selection-start-line="1670" selection-end-line="1670" />
+            <state relative-caret-position="179">
+              <caret line="93" selection-start-line="93" selection-end-line="93" />
               <folding>
-                <element signature="e#67760#67761#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#2262#2263#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Projekt.iml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Projekt.iml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="Event.java" pinned="false" current-in-tab="false">
@@ -207,18 +194,6 @@
                 <element signature="imports" expanded="true" />
                 <element signature="e#1617#1618#0" expanded="true" />
                 <element signature="e#1666#1667#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AnimationAccessorImpl.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/javafx.graphics/javafx/animation/AnimationAccessorImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="49" selection-start-line="49" selection-end-line="49" />
-              <folding>
-                <element signature="e#877#878#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -332,8 +307,7 @@
     <packageJsonPaths />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-6" />
+  <component name="ProjectFrameBounds">
     <option name="width" value="1612" />
     <option name="height" value="893" />
   </component>
@@ -347,12 +321,18 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="Projekt" type="b2602c69:ProjectViewProjectNode" />
               <item name="Projekt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Projekt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projekt" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Projekt" type="b2602c69:ProjectViewProjectNode" />
@@ -369,6 +349,12 @@
               <item name="Projekt" type="b2602c69:ProjectViewProjectNode" />
               <item name="Projekt" type="462c0819:PsiDirectoryNode" />
               <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Projekt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projekt" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Projekt" type="b2602c69:ProjectViewProjectNode" />
@@ -405,7 +391,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -621,11 +606,12 @@
       <workItem from="1533110808707" duration="3048000" />
       <workItem from="1533113883804" duration="12444000" />
       <workItem from="1533303883431" duration="1169000" />
+      <workItem from="1533307337680" duration="246000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129173000" />
+    <option name="totallyTimeSpent" value="129419000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -637,7 +623,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
+    <frame x="-6" y="0" width="1612" height="893" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4983462" weight="0.32985386" />
@@ -652,7 +639,7 @@
       <window_info anchor="bottom" id="Terminal" order="14" sideWeight="0.49889746" weight="0.32985386" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7014614" visible="true" weight="0.15931642" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7014614" visible="true" weight="0.18814433" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info id="Structure" order="1" sideWeight="0.29853863" side_tool="true" weight="0.1477398" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24972437" />
@@ -677,6 +664,7 @@
       <window_info anchor="bottom" id="Application Servers" order="11" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
+      <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4881593" visible="true" weight="0.020387359" />
       <window_info anchor="right" id="JetGradle" order="6" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24972437" />
@@ -690,7 +678,6 @@
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5118407" side_tool="true" visible="true" weight="0.020387359" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="15" sideWeight="0.48923573" weight="0.32721713" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4983462" weight="0.32985386" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Problems" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
@@ -700,7 +687,7 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7014614" visible="true" weight="0.15769644" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="Image Layers" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4983462" weight="0.32985386" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Structure" order="1" sideWeight="0.29853863" side_tool="true" weight="0.1477398" />
@@ -883,13 +870,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/javafx.graphics/javafx/animation/Animation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19261">
-          <caret line="1133" selection-start-line="1133" selection-end-line="1133" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MainPackage/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1003">
@@ -1090,17 +1070,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/teams/BodyPart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="93" selection-start-line="93" selection-end-line="93" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2262#2263#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/teams/Fighter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="267">
@@ -1216,6 +1185,20 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/teams/BodyPart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="93" selection-start-line="93" selection-end-line="93" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2262#2263#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projekt.iml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
